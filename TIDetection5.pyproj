@@ -1,0 +1,93 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>876aa37b-a6af-4e1b-be42-25cbaad618a6</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>TIDetection5.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>TIDetection5</Name>
+    <RootNamespace>TIDetection5</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GUIs.py" />
+    <Compile Include="models\common.py" />
+    <Compile Include="models\experimental.py" />
+    <Compile Include="models\export.py" />
+    <Compile Include="models\yolo.py" />
+    <Compile Include="tidetect.py" />
+    <Compile Include="TIDetection5.py" />
+    <Compile Include="utils\augmentations.py" />
+    <Compile Include="utils\autoanchor.py" />
+    <Compile Include="utils\dataloaders.py" />
+    <Compile Include="utils\device.py" />
+    <Compile Include="utils\downloads.py" />
+    <Compile Include="utils\general.py" />
+    <Compile Include="utils\metrics.py" />
+    <Compile Include="utils\plots.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="data\scripts\" />
+    <Folder Include="models\" />
+    <Folder Include="models\__pycache__\" />
+    <Folder Include="utils\" />
+    <Folder Include="__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\Argoverse.yaml" />
+    <Content Include="data\coco.yaml" />
+    <Content Include="data\coco128.yaml" />
+    <Content Include="data\coco2014.yaml" />
+    <Content Include="data\coco2017.yaml" />
+    <Content Include="data\custom.yaml" />
+    <Content Include="data\get_coco2014_dataset.sh" />
+    <Content Include="data\get_coco2017_dataset.sh" />
+    <Content Include="data\get_voc_dataset.sh" />
+    <Content Include="data\GlobalWheat2020.yaml" />
+    <Content Include="data\hand.yaml" />
+    <Content Include="data\Objects365.yaml" />
+    <Content Include="data\scripts\download_weights.sh" />
+    <Content Include="data\scripts\get_coco.sh" />
+    <Content Include="data\scripts\get_coco128.sh" />
+    <Content Include="data\SKU-110K.yaml" />
+    <Content Include="data\VisDrone.yaml" />
+    <Content Include="data\VOC.yaml" />
+    <Content Include="data\voc2007.yaml" />
+    <Content Include="data\voc2012.yaml" />
+    <Content Include="data\xView.yaml" />
+    <Content Include="models\yolov5l.yaml" />
+    <Content Include="models\yolov5m.yaml" />
+    <Content Include="models\yolov5n.yaml" />
+    <Content Include="models\yolov5s.yaml" />
+    <Content Include="models\yolov5x.yaml" />
+    <Content Include="models\__pycache__\common.cpython-39.pyc" />
+    <Content Include="models\__pycache__\experimental.cpython-39.pyc" />
+    <Content Include="models\__pycache__\export.cpython-39.pyc" />
+    <Content Include="models\__pycache__\yolo.cpython-39.pyc" />
+    <Content Include="README.md" />
+    <Content Include="requirements.txt" />
+    <Content Include="__pycache__\GUIs.cpython-39.pyc" />
+    <Content Include="__pycache__\tidetect.cpython-39.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -19,7 +19,7 @@ See the [PyTorch Get Started docs](https://pytorch.org/get-started/locally/) for
 Tkinter
 # OpenCV
 opencv-contrib-python>=4.6.0.66
-# PyTorch + GUI CUDA
+# PyTorch + GPU CUDA
 torch==1.11.0+cu115 torchvision==0.12.0+cu115 torchaudio==0.11.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 I used models of coco dataset [COCO dataset](https://cocodataset.org/#detection-eval)

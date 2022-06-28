@@ -32,7 +32,8 @@ weights -|- yolov5n6.pt
 ```
 ### <div align="center">Tkinder GUI view</div>
 ![Opencv](doc/gui.png)
-![YouTube video](https://www.youtube.com/watch?v=v2rJa8R4g9s)
+
+![YouTube video](https://img.youtube.com/vi/v2rJa8R4g9s/0.jpg)](https://www.youtube.com/watch?v=v2rJa8R4g9s)
 #### <div align="center">Tkinder feature</div>
 1.) Image normal view<br> 
 2.) Image detected on a coco dataset view<br> 

@@ -28,8 +28,6 @@ I used models of coco dataset [COCO dataset](https://cocodataset.org/#detection-
 ```bash
 weights -|- yolov5n6.pt
          |- yolov5m6.pt
-         |- yolov5l6.pt
-         |- yolov5x6.pt
 ```
 ### <div align="center">Tkinder GUI view</div>
 ![Opencv](doc/gui.png)

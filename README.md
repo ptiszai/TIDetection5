@@ -24,6 +24,7 @@ torch==1.11.0+cu115 torchvision==0.12.0+cu115 torchaudio==0.11.0 -f https://down
 ```
 I used models of coco dataset [COCO dataset](https://cocodataset.org/#detection-eval)
 ![Opencv](doc/coco-logo.png)
+
 [TensorRT, TensorFlow Edge TPU and OpenVINO Export and Inference:](https://github.com/ultralytics/yolov5/releases)
 ```bash
 weights -|- yolov5n6.pt

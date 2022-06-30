@@ -13,7 +13,7 @@ pip install -r requirements.txt  # install
 The Installing more packages, this using pip, in the "Python Environments" of Microsoft Visual Studio.
 
 See the [PyTorch Get Started docs](https://pytorch.org/get-started/locally/) for full documentation on installed.
-<center>![Opencv](doc/PyTorch_logo_black.png)</center>
+![Opencv](doc/PyTorch_logo_black.png)<br>
 ```bash
 # GUI
 Tkinter
@@ -31,9 +31,9 @@ weights -|- yolov5n6.pt
          |- yolov5m6.pt
 ```
 ### <div align="center">Tkinder GUI view</div>
-<center>![Opencv](doc/gui.png)<br></center>
+![Opencv](doc/gui.png)<br>
 YouTube video (click):<br>
-<center>[![YouTube video](https://img.youtube.com/vi/v2rJa8R4g9s/0.jpg)](https://www.youtube.com/watch?v=v2rJa8R4g9s)</center>
+[![YouTube video](https://img.youtube.com/vi/v2rJa8R4g9s/0.jpg)](https://www.youtube.com/watch?v=v2rJa8R4g9s)
 #### <div align="center">Tkinder feature</div>
 1.) Image normal view<br> 
 2.) Image detected on a coco dataset view<br> 

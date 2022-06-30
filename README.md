@@ -2,7 +2,7 @@
 Object Detections YOLOv5 with the Deep MI.<br> 
 Deep-learning Machine Intelligence Network.<br>
 Base is [YOLOv5](https://ultralytics.com/yolov5)
-<center>![Opencv](doc/yolov5.png)</center>
+![Opencv](doc/yolov5.png)
 
 ### <div align="center">Installation</div>
 Microsoft Visual Studio Community 2022, extension Python 3.9 64 bit.<br>
@@ -31,7 +31,7 @@ weights -|- yolov5n6.pt
          |- yolov5m6.pt
 ```
 ### <div align="center">Tkinder GUI view</div>
-<center>![Opencv](doc/gui.png)<br><c/enter>
+<center>![Opencv](doc/gui.png)<br></center>
 YouTube video (click):<br>
 <center>[![YouTube video](https://img.youtube.com/vi/v2rJa8R4g9s/0.jpg)](https://www.youtube.com/watch?v=v2rJa8R4g9s)</center>
 #### <div align="center">Tkinder feature</div>
